@@ -16,13 +16,13 @@ OneRoom - Yui Hanasaki Memorial Visual Novel ID
 - Rating     : All Age
 - Engine     : Kirikiri Z
 - VNDB       : v54029 [VNDB](https://vndb.org/v54029)
-- Encryption Type : CX
+- Encryption Type : HX
 
 **Cara Instalasi**
 
 - Unduh Patchnya di Release 
 - Drag And Drop isi file zip itu ke direktori game 
-- Lalu jalankan OneRoom_IndoPatch.exe
+- Lalu jalankan OneRoom.exe
 
 
 <details open> 
@@ -35,16 +35,3 @@ OneRoom - Yui Hanasaki Memorial Visual Novel ID
 - SCNEDITOR
 
 
-
-
-
-**Detail Penggunanan loader untuk patch ini**
-
-Version.dll yang biasanya digunakan dalam berbagai Game Visual Novel untuk engine KiriKiri 2/Z tidak berfungsi untuk Game ini karena penggunaan Enkripsi CX yang dimana 
-didalam folder gamenya terdapat cxdec.dll, cara kerjanya sama seperti HX Encryption di GINKA tetapi untuk version.dll sendiri dikhususkan game yang dimana terdapat studio WamSoft, maka dari itu 
-pada patch ini kami memakai loader.
-
-*CxEncrypt* adalah algoritma enkripsi khusus yang menghasilkan dua fungsi dengan memasukkan satu, lalu mengeksekusi dua fungsi untuk menghasilkan dua, lalu menggunakan keduanya untuk mendekripsi data.
-
-
-  
